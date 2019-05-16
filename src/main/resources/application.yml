@@ -36,10 +36,13 @@ zuul:
   ignoredServices: "*"
   routes:
     user-service:
-      path: /api/1.0/users/**
+      path: /api/v1/users/**
       strip-prefix: false
+    message-service:
+      path: /api/v1/messages/**
+      strip-prefix: false      
     auth-server:
-      path: /api/1.0/auth/**
+      path: /api/v1/auth/**
       strip-prefix: false
   
 ribbon:

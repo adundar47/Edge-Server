@@ -2,10 +2,7 @@ buildscript {
     ext {
         springBootVersion = '1.5.10.RELEASE'
         dependencyManagementVersion = 'Camden.SR6'
-        springCloudNetflixVersion = '1.2.4.RELEASE'
-        springCloudSleuthVersion = '1.1.1.RELEASE'
 		springBootWebVersion = '1.5.8.RELEASE'
-		consulVersion = '1.0.0.RELEASE'
     }
     repositories {
         maven { url "https://plugins.gradle.org/m2/" }
